@@ -481,18 +481,18 @@ export const links = [
   },
 
   {
-    title: 'Pages',
+    title: 'Paginas',
     links: [
       {
-        name: 'orders',
+        name: 'pedidos',
         icon: <AiOutlineShoppingCart />,
       },
       {
-        name: 'employees',
+        name: 'empregados',
         icon: <IoMdContacts />,
       },
       {
-        name: 'customers',
+        name: 'clientes',
         icon: <RiContactsLine />,
       },
     ],
@@ -501,7 +501,7 @@ export const links = [
     title: 'Apps',
     links: [
       {
-        name: 'calendar',
+        name: 'calendário',
         icon: <AiOutlineCalendar />,
       },
       {
@@ -509,7 +509,7 @@ export const links = [
         icon: <BsKanban />,
       },
       {
-        name: 'editor',
+        name: 'editor de texto',
         icon: <FiEdit />,
       },
       {
@@ -519,19 +519,19 @@ export const links = [
     ],
   },
   {
-    title: 'Charts',
+    title: 'Gráficos',
     links: [
       {
-        name: 'line',
+        name: 'linha',
         icon: <AiOutlineStock />,
       },
       {
-        name: 'area',
+        name: 'área',
         icon: <AiOutlineAreaChart />,
       },
 
       {
-        name: 'bar',
+        name: 'barra',
         icon: <AiOutlineBarChart />,
       },
       {
@@ -539,7 +539,7 @@ export const links = [
         icon: <FiPieChart />,
       },
       {
-        name: 'financial',
+        name: 'finaceiro',
         icon: <RiStockLine />,
       },
       {
@@ -547,7 +547,7 @@ export const links = [
         icon: <BsBarChart />,
       },
       {
-        name: 'pyramid',
+        name: 'pirâmide',
         icon: <GiLouvrePyramid />,
       },
       {
@@ -618,7 +618,7 @@ export const earningData = [
     icon: <MdOutlineSupervisorAccount />,
     amount: '39,354',
     percentage: '-4%',
-    title: 'Customers',
+    title: 'Clientes',
     iconColor: '#03C9D7',
     iconBg: '#E5FAFB',
     pcColor: 'red-600',
@@ -627,7 +627,7 @@ export const earningData = [
     icon: <BsBoxSeam />,
     amount: '4,396',
     percentage: '+23%',
-    title: 'Products',
+    title: 'Produtos',
     iconColor: 'rgb(255, 244, 229)',
     iconBg: 'rgb(254, 201, 15)',
     pcColor: 'green-600',
@@ -636,7 +636,7 @@ export const earningData = [
     icon: <FiBarChart />,
     amount: '423,39',
     percentage: '+38%',
-    title: 'Sales',
+    title: 'Vendas',
     iconColor: 'rgb(228, 106, 118)',
     iconBg: 'rgb(255, 244, 229)',
 
@@ -646,7 +646,7 @@ export const earningData = [
     icon: <HiOutlineRefresh />,
     amount: '39,354',
     percentage: '-12%',
-    title: 'Refunds',
+    title: 'Reembolsos',
     iconColor: 'rgb(0, 194, 146)',
     iconBg: 'rgb(235, 250, 242)',
     pcColor: 'red-600',
