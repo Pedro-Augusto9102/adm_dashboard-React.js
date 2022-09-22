@@ -44,20 +44,20 @@ export const gridOrderStatus = (props) => (
 );
 
 export const kanbanGrid = [
-  { headerText: 'To Do',
+  { headerText: 'A Fazer',
     keyField: 'Open',
     allowToggle: true },
 
-  { headerText: 'In Progress',
+  { headerText: 'Fazendo',
     keyField: 'InProgress',
     allowToggle: true },
 
-  { headerText: 'Testing',
+  { headerText: 'Testando',
     keyField: 'Testing',
     allowToggle: true,
     isExpanded: false },
 
-  { headerText: 'Done',
+  { headerText: 'Feito',
     keyField: 'Close',
     allowToggle: true },
 ];
@@ -501,7 +501,7 @@ export const links = [
     title: 'Apps',
     links: [
       {
-        name: 'calendário',
+        name: 'calendario',
         icon: <AiOutlineCalendar />,
       },
       {
@@ -509,7 +509,7 @@ export const links = [
         icon: <BsKanban />,
       },
       {
-        name: 'editor de texto',
+        name: 'editor-de-texto',
         icon: <FiEdit />,
       },
       {
@@ -526,7 +526,7 @@ export const links = [
         icon: <AiOutlineStock />,
       },
       {
-        name: 'área',
+        name: 'area',
         icon: <AiOutlineAreaChart />,
       },
 
@@ -547,7 +547,7 @@ export const links = [
         icon: <BsBarChart />,
       },
       {
-        name: 'pirâmide',
+        name: 'piramide',
         icon: <GiLouvrePyramid />,
       },
       {
