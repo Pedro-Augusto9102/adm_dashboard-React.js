@@ -55,13 +55,13 @@ const App = () => {
                         <Route path="/calendario" element={<Calendar/>}/>
                         <Route path="/color-picker" element={<ColorPicker/>}/>
                         {/*Graficos*/}
-                        <Route path="/line" element={<Line/>}/>
+                        <Route path="/linha" element={<Line/>}/>
                         <Route path="/area" element={<Area/>}/>
-                        <Route path="/bar" element={<Bar/>}/>
+                        <Route path="/barra" element={<Bar/>}/>
                         <Route path="/pie" element={<Pie/>}/>
                         <Route path="/financeiro" element={<Financial/>}/>
                         <Route path="/color-mapping" element={<ColorMapping/>}/>
-                        <Route path="/pyramid" element={<Pyramid/>}/>
+                        <Route path="/piramide" element={<Pyramid/>}/>
                         <Route path="/stacked" element={<Stacked/>}/>
                     </Routes>
                 </div>

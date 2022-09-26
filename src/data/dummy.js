@@ -224,7 +224,7 @@ export const areaCustomSeries = [
     dataSource: areaChartData[1],
     xName: 'x',
     yName: 'y',
-    name: 'France',
+    name: 'França',
     opacity: '0.8',
     type: 'SplineArea',
     width: '2',
@@ -233,7 +233,7 @@ export const areaCustomSeries = [
     dataSource: areaChartData[2],
     xName: 'x',
     yName: 'y',
-    name: 'Germany',
+    name: 'Alemanha',
     opacity: '0.8',
     type: 'SplineArea',
     width: '2',
@@ -263,7 +263,7 @@ export const barCustomSeries = [
     dataSource: barChartData[0],
     xName: 'x',
     yName: 'y',
-    name: 'Gold',
+    name: 'Ouro',
     type: 'Column',
     marker: {
       dataLabel: {
@@ -277,7 +277,7 @@ export const barCustomSeries = [
     dataSource: barChartData[1],
     xName: 'x',
     yName: 'y',
-    name: 'Silver',
+    name: 'Prata',
     type: 'Column',
     marker: {
       dataLabel: {
@@ -305,17 +305,17 @@ export const barCustomSeries = [
 export const colorMappingData = [
   [
     { x: 'Jan', y: 6.96 },
-    { x: 'Feb', y: 8.9 },
+    { x: 'Fev', y: 8.9 },
     { x: 'Mar', y: 12 },
-    { x: 'Apr', y: 17.5 },
-    { x: 'May', y: 22.1 },
-    { x: 'June', y: 25 },
-    { x: 'July', y: 29.4 },
-    { x: 'Aug', y: 29.6 },
-    { x: 'Sep', y: 25.8 },
-    { x: 'Oct', y: 21.1 },
+    { x: 'Abr', y: 17.5 },
+    { x: 'Mai', y: 22.1 },
+    { x: 'Jun', y: 25 },
+    { x: 'Jul', y: 29.4 },
+    { x: 'Ago', y: 29.6 },
+    { x: 'Set', y: 25.8 },
+    { x: 'Out', y: 21.1 },
     { x: 'Nov', y: 15.5 },
-    { x: 'Dec', y: 9.9 },
+    { x: 'Dez', y: 9.9 },
   ],
   ['#FFFF99'],
   ['#FFA500'],
@@ -343,7 +343,7 @@ export const rangeColorMapping = [
 export const ColorMappingPrimaryXAxis = {
   valueType: 'Category',
   majorGridLines: { width: 0 },
-  title: 'Months',
+  title: 'Meses',
 };
 
 export const ColorMappingPrimaryYAxis = {
@@ -351,7 +351,7 @@ export const ColorMappingPrimaryYAxis = {
   majorTickLines: { width: 0 },
   minorTickLines: { width: 0 },
   labelFormat: '{value}°C',
-  title: 'Temperature',
+  title: 'Temperatura',
 };
 
 export const FinancialPrimaryXAxis = {
@@ -539,7 +539,7 @@ export const links = [
         icon: <FiPieChart />,
       },
       {
-        name: 'finaceiro',
+        name: 'financeiro',
         icon: <RiStockLine />,
       },
       {
@@ -3095,7 +3095,7 @@ export const lineCustomSeries = [
   { dataSource: lineChartData[0],
     xName: 'x',
     yName: 'y',
-    name: 'Germany',
+    name: 'Alemanha',
     width: '2',
     marker: { visible: true, width: 10, height: 10 },
     type: 'Line' },
@@ -3103,7 +3103,7 @@ export const lineCustomSeries = [
   { dataSource: lineChartData[1],
     xName: 'x',
     yName: 'y',
-    name: 'England',
+    name: 'Inglaterra',
     width: '2',
     marker: { visible: true, width: 10, height: 10 },
     type: 'Line' },
@@ -3157,21 +3157,21 @@ export const ecomPieChartData = [
 export const stackedChartData = [
   [
     { x: 'Jan', y: 111.1 },
-    { x: 'Feb', y: 127.3 },
+    { x: 'Fev', y: 127.3 },
     { x: 'Mar', y: 143.4 },
-    { x: 'Apr', y: 159.9 },
-    { x: 'May', y: 159.9 },
+    { x: 'Abr', y: 159.9 },
+    { x: 'Mai', y: 159.9 },
     { x: 'Jun', y: 159.9 },
-    { x: 'July', y: 159.9 },
+    { x: 'Jul', y: 159.9 },
   ],
   [
     { x: 'Jan', y: 111.1 },
-    { x: 'Feb', y: 127.3 },
+    { x: 'Fev', y: 127.3 },
     { x: 'Mar', y: 143.4 },
-    { x: 'Apr', y: 159.9 },
-    { x: 'May', y: 159.9 },
+    { x: 'Abr', y: 159.9 },
+    { x: 'Mai', y: 159.9 },
     { x: 'Jun', y: 159.9 },
-    { x: 'July', y: 159.9 },
+    { x: 'Jul', y: 159.9 },
   ],
 ];
 
@@ -3180,7 +3180,7 @@ export const stackedCustomSeries = [
   { dataSource: stackedChartData[0],
     xName: 'x',
     yName: 'y',
-    name: 'Budget',
+    name: 'Orçamento',
     type: 'StackingColumn',
     background: 'blue',
 
@@ -3189,7 +3189,7 @@ export const stackedCustomSeries = [
   { dataSource: stackedChartData[1],
     xName: 'x',
     yName: 'y',
-    name: 'Expense',
+    name: 'Custo',
     type: 'StackingColumn',
     background: 'red',
 
@@ -5864,10 +5864,10 @@ export const financialChartData = [
   },
 ];
 export const PyramidData = [
-  { x: 'Sweet Treats', y: 120, text: '120 cal' },
-  { x: 'Milk, Youghnut, Cheese', y: 435, text: '435 cal' },
-  { x: 'Vegetables', y: 470, text: '470 cal' },
-  { x: 'Meat, Poultry, Fish', y: 475, text: '475 cal' },
-  { x: 'Fruits', y: 520, text: '520 cal' },
-  { x: 'Bread, Rice, Pasta', y: 930, text: '930 cal' },
+  { x: 'Doces', y: 120, text: '120 cal' },
+  { x: 'Leite, Yogurte, Queijo', y: 435, text: '435 cal' },
+  { x: 'Vegetais', y: 470, text: '470 cal' },
+  { x: 'Carne, Peixe', y: 475, text: '475 cal' },
+  { x: 'Frutas', y: 520, text: '520 cal' },
+  { x: 'Pão, Arroz, Massas', y: 930, text: '930 cal' },
 ];
